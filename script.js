@@ -59,3 +59,59 @@ console.log(milk);
 var airConditioner = 65000;
 airConditioner -= 5000;
 console.log(airConditioner);
+
+
+// conditions 
+var banglaPassMark = 33;
+
+if(banglaPassMark <= 33){
+    console.log('Student Will pass')
+}
+else{
+    console.log('Student will fail')
+}
+
+const old = 10;
+const price = 1000;
+
+if(old <= 12){
+    console.log('You can eat for free');
+}
+else if(age >= 60){
+    const discount = price * 50 / 100;
+    const payAmount = price - discount;
+    console.log(payAmount);
+}
+else{
+    console.log(price);
+}
+
+var passMark = 33;
+var passed = true;
+
+if(passMark <= 33 && passed == true){
+    console.log('he can go to the next class');
+}
+else{
+    console.log('he can not');
+}
+
+var rate = 300;
+var haveId = true;
+
+if(rate >= 350 && haveId == true){
+    console.log('he will get discount');
+} else{
+    console.log('he will not get discount');
+}
+
+var methodology = "salafi";
+var pray = 5;
+var doNiqab =true;
+
+if(pray >=5 && methodology == "salafi" && doNiqab == true){
+    console.log('a salafi man/woman can marry him/her');
+}
+else{
+    console.log('a salafi man/woman can not marry him/her');
+}
