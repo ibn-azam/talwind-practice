@@ -107,9 +107,9 @@ if(rate >= 350 && haveId == true){
 
 var methodology = "salafi";
 var pray = 5;
-var doNiqab =true;
+var wearNiqab =true;
 
-if(pray >=5 && methodology == "salafi" && doNiqab == true){
+if(pray >=5 && methodology == "salafi" && wearNiqab == true){
     console.log('a salafi man/woman can marry him/her');
 }
 else{
